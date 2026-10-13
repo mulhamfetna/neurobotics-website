@@ -1,0 +1,74 @@
+<style>
+    /* Load Thmanyah Sans - Medium */
+    @font-face {
+        font-family: 'Thamania Sans';
+        src: url('/fonts/thmanyahsans/woff2/thmanyahsans-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* Load Thmanyah Sans - Bold */
+    @font-face {
+        font-family: 'Thamania Sans';
+        src: url('/fonts/thmanyahsans/woff2/thmanyahsans-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #F7F7F8;
+        color: #1C1C1C;
+        font-family: 'Space Grotesk', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        /* Subtle engineering blueprint grid pattern */
+        background-image: linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+    h1 {
+        font-size: clamp(2rem, 5vw, 4rem);
+        letter-spacing: 0.1em;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
+        letter-spacing: 0.25em;
+        color: #4B5563;
+        margin-bottom: 2.5rem;
+        font-weight: 400;
+    }
+    .status {
+        font-size: 0.9rem;
+        color: #2563EB;
+        border: 1px solid #2563EB;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    .arabic {
+        /* Apply the properly linked Arabic font here */
+        font-family: 'Thamania Sans', sans-serif;
+        font-weight: 700; /* Uses the Bold variant */
+        margin-top: 1.5rem;
+        font-size: 1.5rem; /* Slightly larger for better Arabic legibility */
+        color: #4B5563;
+    }
+</style>
+</head>
+<body>
+    <h1>NEUROBOTICS</h1>
+    <h2>ENGINEERING MINDS AND MACHINES</h2>
+    <div class="status">INFRASTRUCTURE DEPLOYMENT IN PROGRESS</div>
+    <div class="arabic">قريباً</div>
+</body>
+</html>
